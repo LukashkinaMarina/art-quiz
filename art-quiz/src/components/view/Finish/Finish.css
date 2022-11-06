@@ -1,0 +1,20 @@
+.T .finish-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 7.6vw;
+  left: 29.5vw;
+  width: 40vw;
+  height: 33.5vw;
+  background-color: white;
+  z-index: 1000;
+  border-radius: 1vw;
+  box-shadow: 0 0 2000px rgba(19, 18, 18, 0.34),
+    0 0 2000px rgba(21, 20, 20, 0.24);
+}
+
+.T .finish-container img {
+  width: 10vw;
+}

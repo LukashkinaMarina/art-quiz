@@ -1,0 +1,19 @@
+.T .answers-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50vw;
+  height: 20vw;
+}
+
+.T .answers-container img {
+  width: 16vw;
+  border-radius: 10px;
+  margin: 0.5vw;
+}
+
+.T .answers-container img:hover {
+  box-shadow: 0 14px 28px rgba(19, 18, 18, 0.34),
+    0 10px 10px rgba(21, 20, 20, 0.24);
+}

@@ -1,0 +1,41 @@
+.T .container-result {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 7.6vw;
+  left: 29.5vw;
+  width: 40vw;
+  height: 33.5vw;
+  background-color: white;
+  z-index: 1000;
+  border-radius: 1vw;
+  box-shadow: 0 0 2000px rgba(19, 18, 18, 0.34),
+    0 0 2000px rgba(21, 20, 20, 0.24);
+}
+
+.T .result-bullet {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-weight: bold;
+  width: 3vw;
+  height: 3vw;
+  font-size: 2.1vw;
+  border-radius: 1.5vw;
+}
+
+.T .result-image img {
+  width: 17vw;
+  border-radius: 1vw;
+  box-shadow: 0 14px 28px rgba(19, 18, 18, 0.34),
+    0 10px 10px rgba(21, 20, 20, 0.24);
+}
+
+.T .result-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

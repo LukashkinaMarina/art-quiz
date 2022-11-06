@@ -1,0 +1,22 @@
+.T .score-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.T .buttons-score {
+  width: 100vw;
+  justify-content: space-around;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2vh;
+}
+
+.T .score-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 85%;
+  height: 100%;
+}

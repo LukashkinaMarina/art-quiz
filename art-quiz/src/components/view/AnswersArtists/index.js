@@ -1,0 +1,1 @@
+export { AnswersArtists } from './AnswersArtists';

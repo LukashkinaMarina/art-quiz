@@ -1,0 +1,23 @@
+<div class="screen settings">
+  <button class="navigation-button default-settings">По умолчанию</button>
+  <div class="container-sound-time">
+    <div class="container-image">
+      <h2>
+        Громкость
+      </h2>
+      <img src="images/sound.jpg" alt="sound" />
+      <input class="sound-volume" type="range" value="{{volume}}">
+    </div>
+    <div class="container-image">
+      <h2>
+        Игра на время
+      </h2>
+      <img src="images/time.jpg" alt="time" />
+      <input class="time-to-answer" value="{{gameSpeed}}" type="range" min=5 max=30 step=5>
+      <input id="game-mode-id" class="game-mode" type="checkbox" {{checked}}>
+    </div>
+  </div>
+  <div class="navigation">
+    <button class="close-settings-button">В начало</button>
+  </div>
+</div>

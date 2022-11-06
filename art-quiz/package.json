@@ -1,0 +1,20 @@
+{
+  "version": "0.1.0",
+  "description": "My new js application",
+  "private": true,
+  "name": "my-app",
+  "scripts": {
+    "start": "rss-scripts start",
+    "build": "rss-scripts build",
+    "lint": "eslint ./src/**/*.{ts,js,tsx,jsx}"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "rss-scripts": "^0.2.4"
+  },
+  "dependencies": {
+    "lint": "^0.7.0"
+  }
+}

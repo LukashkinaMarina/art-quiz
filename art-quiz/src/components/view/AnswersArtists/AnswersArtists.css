@@ -1,0 +1,47 @@
+.T .answers-artist-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70vw;
+  height: 30vw;
+}
+
+.T .answers-artist-container img {
+  width: 26vw;
+  height: 26vw;
+  border-radius: 1vw;
+  margin: 1vw;
+  object-fit: scale-down;
+}
+
+.T button {
+  width: 12vw;
+  height: 6vw;
+  font-size: 1vw;
+}
+
+.T button:hover {
+  background-color: #e0e0e0;
+  color: #660033;
+}
+
+.T .answers-artist-container button {
+  margin-left: 10px;
+}
+
+.T .answers-artist-container img:hover {
+  box-shadow: 0 14px 28px rgba(19, 18, 18, 0.34),
+    0 10px 10px rgba(21, 20, 20, 0.24);
+}
+
+.T .artist-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer-bullets {
+  position: absolute;
+  top: 26vw !important;
+}

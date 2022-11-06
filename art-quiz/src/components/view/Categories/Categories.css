@@ -1,0 +1,25 @@
+.T .categories-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 80vw;
+}
+
+.buttons-home-score {
+  width: 100vw;
+  justify-content: space-around;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2vh;
+}
+
+.T .categories-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 85%;
+  height: 100%;
+}
+
+

@@ -1,0 +1,59 @@
+.T .home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.T .artists-quiz-image,
+.T .blitz-quiz-image,
+.T .pictures-quiz-image {
+  display: flex;
+  align-items: flex-end;
+  width: 20vw;
+  height: 27vw;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.T .artists-quiz-image {
+  cursor: pointer;
+  background-image: url(images/artists.jpg);
+  border-top-left-radius: 6vw;
+  background-size: contain;
+}
+.T .pictures-quiz-image {
+  cursor: pointer;
+  background-image: url(images/pictures.jpg);
+  border-top-left-radius: 6vw;
+  background-size: contain;
+}
+
+.T .blitz-quiz-image {
+  cursor: pointer;
+  background-image: url(images/blitz.jpg);
+  border-top-left-radius: 6vw;
+  background-size: contain;
+}
+
+.T .menu {
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  margin: 2vw;
+}
+
+.T .home-play-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 4vw;
+  font-size: 1.5vw;
+  background-color: white;
+  color: #660033;
+}
+
+.T .menu-item:hover .home-play-button {
+  box-shadow: 0 14px 28px rgba(19, 18, 18, 0.34),
+    0 10px 10px rgba(21, 20, 20, 0.24);
+}
